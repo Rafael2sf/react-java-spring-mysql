@@ -1,0 +1,14 @@
+spring:
+ datasource:
+  url: jdbc:mysql://localhost:3306/db
+  username: "your-username"
+  password: "your-password"
+  driver-class-name: com.mysql.cj.jdbc.Driver
+ jpa:
+  database-platform: org.hibernate.dialect.MySQLDialect
+  hibernate:
+   ddl-auto: create-drop
+
+custom:
+  api:
+    secret-key: "this-is-my-secret"

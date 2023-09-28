@@ -1,0 +1,48 @@
+#HomePage {
+  width: 100vw;
+}
+
+#TaskMenu {
+  width: 100%;
+  padding: 1rem;
+}
+
+#Tasks {
+  width: 500px;
+  padding: .5rem 0;
+}
+
+.task {
+  background-color: #222229;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  outline: 1px solid greenyellow;
+  box-shadow: 5px 5px black;
+  word-wrap: break-word;
+}
+
+.task > div {
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.task > span {
+  font-size: 11px;
+  margin-top: 1rem;
+}
+
+.task > div > button {
+  background: none;
+  color: red;
+  border: none;
+  border-radius: 5%;
+  margin: 5px;
+  padding: 5px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  opacity: 0.5;
+}

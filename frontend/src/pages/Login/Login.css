@@ -1,0 +1,13 @@
+#LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+#LoginPage > img {
+  width: 128px;
+  margin-bottom: 5rem;
+}

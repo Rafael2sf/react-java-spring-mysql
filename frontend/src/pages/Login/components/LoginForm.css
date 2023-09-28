@@ -1,0 +1,10 @@
+#LoginForm {
+  padding: 2rem;
+  border: 1px solid white;
+  box-shadow: 5px 5px black;
+  background-color: #222229;
+}
+
+#LoginForm .item {
+  margin: 1rem 0;
+}

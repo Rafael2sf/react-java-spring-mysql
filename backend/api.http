@@ -1,0 +1,45 @@
+### Sign up
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+
+{
+	"username": "example3",
+	"password": "123"
+}
+
+### sign in
+POST http://localhost:8080/auth/signin
+Content-Type: application/json
+
+{
+	"username": "example3",
+	"password": "123"
+}
+
+### Logout
+POST http://localhost:8080/auth/logout
+
+### Test
+
+GET http://localhost:8080/user
+Cookie: userid=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJleGFtcGxlIiwiZXhwIjoxNjk2NzEwOTU4LCJpYXQiOjE2OTU4NDY5NTh9.BY1S9cbSYBy5ztNAy6AUOAPJNKxos4k9Sf6fjQYLCbk
+
+### Get Task
+
+GET http://localhost:8080/tasks
+Cookie: userid=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJleGFtcGxlMyIsImV4cCI6MTY5NjcyMTE4MCwiaWF0IjoxNjk1ODU3MTgwfQ.PPFDOagGLP7luWM9C3x8Y4ROBxQBOD5gmtcbQkt0fdE
+
+### Create task
+POST http://localhost:8080/tasks
+Cookie: userid=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJleGFtcGxlMyIsImV4cCI6MTY5NjcyMTE4MCwiaWF0IjoxNjk1ODU3MTgwfQ.PPFDOagGLP7luWM9C3x8Y4ROBxQBOD5gmtcbQkt0fdE
+Content-Type: application/json
+
+{
+  "title": "test",
+  "description": "to do this test"
+}
+
+### delete task
+
+DELETE http://localhost:8080/tasks/2
+Cookie: userid=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJleGFtcGxlMyIsImV4cCI6MTY5NjcyMTk1NywiaWF0IjoxNjk1ODU3OTU3fQ.kNqXctp6lZZYVq1nW69vBPt6FKH5oOl8a14WZ5MVip4

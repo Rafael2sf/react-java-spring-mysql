@@ -1,0 +1,7 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background: rgb(17, 17, 21);
+  background: radial-gradient(circle, rgba(17, 17, 21, 1) 0%, rgba(38, 38, 47, 1) 100%);
+}
